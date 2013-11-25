@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 HTML code  ==================================================================================
+=======
+HTML code  =====================================================================
+>>>>>>> 1308b09758d5c2adf5dd23e676c5a59115414524
 
 <css歸零>
 <link href="css/css_reset.css" rel="stylesheet" type="text/css">
@@ -47,8 +51,12 @@ tl.from("#end", 2, {rotation:120, left:-2000, top:1000, ease:Power1.easeInOut})
   .add("label_03"); //設定動畫標籤3
 
 
+<<<<<<< HEAD
 
 < setAnimationInit() 函式 >
+=======
+resizeHandler() 函式
+>>>>>>> 1308b09758d5c2adf5dd23e676c5a59115414524
 
 /*設定所有物件的初始位置*/
 
@@ -57,6 +65,7 @@ TweenLite.to($("#logo"), 0, { rotation:0, left:sw/2 - $('#logo').width()/2, top:
 TweenLite.to($("#img01"), 0, { rotation:0, left:sw/2 - $('#img01').width()/2, top:sh/2 - $('#img01').height()/2 });
 
 TweenLite.to($("#end"), 0, { rotation:0, left:sw/2 - $('#end').width()/2, top:sh/2 - $('#end').height()/2 });
+<<<<<<< HEAD
 
 
 
@@ -78,3 +87,5 @@ switch( $(this).index() ){
 				   
 };
 
+=======
+>>>>>>> 1308b09758d5c2adf5dd23e676c5a59115414524
